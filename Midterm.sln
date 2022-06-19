@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DHandPainted", "2DHandPainted.csproj", "{6FDB076A-0210-7DFC-3864-8BDC284A9042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DHandPaintedEditor", "2DHandPaintedEditor.csproj", "{24F934E0-3A62-932C-1E24-DC954A840339}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDB076A-0210-7DFC-3864-8BDC284A9042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDB076A-0210-7DFC-3864-8BDC284A9042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDB076A-0210-7DFC-3864-8BDC284A9042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDB076A-0210-7DFC-3864-8BDC284A9042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F934E0-3A62-932C-1E24-DC954A840339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F934E0-3A62-932C-1E24-DC954A840339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F934E0-3A62-932C-1E24-DC954A840339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F934E0-3A62-932C-1E24-DC954A840339}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
