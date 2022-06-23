@@ -20,4 +20,7 @@ public class GameManager : MonoBehaviour
 
         }
     }
+    public playerStats player;
+    public PlayerMovement playerMov;
+    
 }

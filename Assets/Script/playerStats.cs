@@ -14,6 +14,15 @@ public class playerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (hitPoint <= 0) { 
+            hitPoint = 0;
+            OnDeath();
+        }
+
+    }
+
+    void OnDeath()
+    {
+
     }
 }

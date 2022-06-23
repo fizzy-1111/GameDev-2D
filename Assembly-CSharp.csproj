@@ -53,10 +53,12 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\PlayerMovement.cs" />
-    <Compile Include="Assets\Script\EnemyBehavior.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\playerStats.cs" />
+    <Compile Include="Assets\Script\PlayerMovement.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\EnemyBehavior.cs" />
+    <Compile Include="Assets\Script\spawnMachine.cs" />
+    <Compile Include="Assets\Script\camFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

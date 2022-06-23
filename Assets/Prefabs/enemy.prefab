@@ -147,4 +147,4 @@ MonoBehaviour:
   spawnPoint: {fileID: 0}
   spawn2: {fileID: 0}
   speed: 0.4
-  Player: {fileID: 0}
+  fireRate: 2
