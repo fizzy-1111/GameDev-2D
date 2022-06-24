@@ -17,8 +17,6 @@ public class PlayerMovement : MonoBehaviour
     public float thrust = 100f;
     public float speed = 0.1f;
     public bool grounded;
-
-    public int direction = 1;
     void Start()
     {
         rightMove=  Time.fixedDeltaTime * speed;
@@ -39,12 +37,12 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.D)){
                 m_Rigidbody.AddForce(rightJump * thrust);
-                direction = 1;
+              
             }
             else if (Input.GetKey(KeyCode.A))
             {
                 m_Rigidbody.AddForce(leftJump *thrust);
-                direction = -1;
+              
             }
             else
             {
@@ -55,12 +53,10 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.D) && grounded)
         {
             playerPos.position += toRight;
-            direction = 1;
         }
         if (Input.GetKey(KeyCode.A) && grounded)
         {
             playerPos.position -= toRight;
-            direction = -1;
 
         }
     }

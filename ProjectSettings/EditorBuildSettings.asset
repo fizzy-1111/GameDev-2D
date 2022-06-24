@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/2D Polygon Line Collider Template/Scenes/Main.unity
-    guid: 9a1d46bb4de93cb448fda8b489693d93
+    path: Assets/Scenes/Scene2.unity
+    guid: 5c0998d6befc35d4e934b4fa70b60213
   - enabled: 1
-    path: Assets/2D Polygon Line Collider Template/Scenes/Example1.unity
-    guid: 72471b0eb98b6514a8449f8465a7e5c0
-  - enabled: 1
-    path: Assets/2D Polygon Line Collider Template/Scenes/Example2.unity
-    guid: 31dd805f1cf332e40818bc514df39384
+    path: Assets/Scenes/Scene1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
