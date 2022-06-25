@@ -17,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
     public float thrust = 100f;
     public float speed = 0.1f;
     public bool grounded;
+    private void Awake()
+    {
+        playerPos = transform;
+    }
     void Start()
     {
         rightMove=  Time.fixedDeltaTime * speed;
@@ -66,5 +70,10 @@ public class PlayerMovement : MonoBehaviour
         {
             grounded = true;
         }
+    }
+    public void setPos(float x,float y)
+    {
+        if(playerPos!=null)
+        playerPos.position = new Vector3(x, y, 0);
     }
 }

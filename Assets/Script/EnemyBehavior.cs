@@ -34,7 +34,7 @@ public class EnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(this.spawnPoint.position);
+       
         range1 = Vector3.Distance(spawnPoint.position, enemy.position);
         range2 = Vector3.Distance(spawn2.position, enemy.position);
         if (detectPlayer()&&(around>range2&&around>range1))
