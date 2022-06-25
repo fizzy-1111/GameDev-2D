@@ -15,8 +15,11 @@ public class EnemyBehavior : MonoBehaviour
     float range1,range2;
     Transform enemy;
     public float speed = 0.1f;
+    public float fireRate = 0.5f;
+    private float lastShot = 0.0f;
 
     [SerializeField]GameObject Player;
+    [SerializeField] playerStats pl;
     void Start()
     {
         enemy = transform;
@@ -54,7 +57,21 @@ public class EnemyBehavior : MonoBehaviour
     }
     void followPlayer()
     {
-        enemy.position += (Player.transform.position - enemy.position) * Time.deltaTime * speed*4;
+        if(Vector3.Distance(enemy.position, Player.transform.position) >= 0.8)
+        {
+            enemy.position += (Player.transform.position - enemy.position) * Time.deltaTime * speed * 4;
+
+        }
+        else
+        {
+            if (Time.time > fireRate + lastShot)
+            {
+                pl.hitPoint -= 1;
+                lastShot = Time.time;
+                
+            }
+        }
+   
     }
     bool detectPlayer()
     {
