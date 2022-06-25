@@ -19,8 +19,6 @@ public class EnemyBehavior : MonoBehaviour
     private float lastShot = 0.0f;
 
     private playerStats Player;
-    public float fireRate = 0.5f;
-    private float lastShot = 0.0f;
 
     public int hitPoint;
     void Start()

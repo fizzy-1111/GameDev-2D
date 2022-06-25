@@ -6,10 +6,12 @@ public class playerStats : MonoBehaviour
 {
     // Start is called before the first frame update
     public int hitPoint;
+    public int maxhitPoint;
 
     void Start()
     {
-        hitPoint = 10;
+        maxhitPoint = 10;
+        hitPoint = maxhitPoint;
     }
 
     // Update is called once per frame

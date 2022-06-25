@@ -11,7 +11,8 @@ public class HealthBar : MonoBehaviour
     
     public void Start()
     {
-		SetMaxHealth(GameManager.Instance.player.hitPoint);
+		SetMaxHealth(GameManager.Instance.player.maxhitPoint);
+		Debug.Log("currentHP");
 	}
 
     public void Update()

@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
+    public string desireScene;
     void Start()
     {
+        desireScene = "Scene1";
         //UnityEditor.EditorApplication.isPlaying = true;
     }
 
@@ -19,7 +21,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGameButton()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(desireScene);
     }
 
     public void ExitButton()
