@@ -15,6 +15,8 @@ public class EnemyBehavior : MonoBehaviour
     float range1,range2,around;
     Transform enemy;
     public float speed = 0.1f;
+    public float fireRate = 0.5f;
+    private float lastShot = 0.0f;
 
     private playerStats Player;
     public float fireRate = 0.5f;
