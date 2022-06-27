@@ -1,0 +1,2172 @@
+fileFormatVersion: 2
+guid: dc5e914f84072cd4bb0c4c0f76ef5ea9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -214708651258491076
+    second: Psykyo_1
+  - first:
+      213: -3349230501029182473
+    second: Psykyo_2
+  - first:
+      213: 7455254345704837224
+    second: Psykyo_3
+  - first:
+      213: 1572387362658129491
+    second: Psykyo_5
+  - first:
+      213: 4569373002899156174
+    second: Psykyo_6
+  - first:
+      213: 9051834473700490752
+    second: Psykyo_7
+  - first:
+      213: 1752353212362724861
+    second: Psykyo_9
+  - first:
+      213: 3221206435876013039
+    second: Psykyo_10
+  - first:
+      213: -5966638780082664176
+    second: Psykyo_11
+  - first:
+      213: -4986570976295553979
+    second: Psykyo_13
+  - first:
+      213: -216034362240685238
+    second: Psykyo_14
+  - first:
+      213: -9212950697516548542
+    second: Psykyo_15
+  - first:
+      213: -7366701309319175656
+    second: Psykyo_16
+  - first:
+      213: -2808904327096037365
+    second: Psykyo_18
+  - first:
+      213: -2114659908687276184
+    second: Psykyo_19
+  - first:
+      213: 5959931015385467427
+    second: Psykyo_20
+  - first:
+      213: 8892374538471122629
+    second: Psykyo_22
+  - first:
+      213: 54771886344515630
+    second: Psykyo_23
+  - first:
+      213: 6742545874244411693
+    second: Psykyo_25
+  - first:
+      213: 4561694132170768861
+    second: Psykyo_26
+  - first:
+      213: -8534861874908222727
+    second: Psykyo_28
+  - first:
+      213: -5280883033018806140
+    second: Psykyo_29
+  - first:
+      213: -8958894839728198100
+    second: Psykyo_30
+  - first:
+      213: -7241527368539857980
+    second: Psykyo_31
+  - first:
+      213: 8747716302936332074
+    second: Psykyo_32
+  - first:
+      213: -3174254697606992622
+    second: Psykyo_34
+  - first:
+      213: 1487271696198183769
+    second: Psykyo_35
+  - first:
+      213: -1958218908068251927
+    second: Psykyo_36
+  - first:
+      213: -9082569935136058921
+    second: Psykyo_39
+  - first:
+      213: 8371913039586324270
+    second: Psykyo_40
+  - first:
+      213: -2675499396755218699
+    second: Psykyo_41
+  - first:
+      213: -2125564328200734823
+    second: Psykyo_42
+  - first:
+      213: -3597763929442969766
+    second: Psykyo_43
+  - first:
+      213: -7508962227095369279
+    second: Psykyo_44
+  - first:
+      213: -197347533044510947
+    second: Psykyo_45
+  - first:
+      213: 2417014879330395695
+    second: Psykyo_46
+  - first:
+      213: 4000600019825939644
+    second: Psykyo_49
+  - first:
+      213: 7830563271500388031
+    second: Psykyo_50
+  - first:
+      213: 2726617142751076707
+    second: Psykyo_51
+  - first:
+      213: 5311827288323457876
+    second: Psykyo_54
+  - first:
+      213: 88104770109716759
+    second: Psykyo_55
+  - first:
+      213: -141834357658954980
+    second: Psykyo_56
+  - first:
+      213: -3978995552108878956
+    second: Psykyo_59
+  - first:
+      213: 2279197732528807196
+    second: Psykyo_60
+  - first:
+      213: -5961237101016173491
+    second: Psykyo_61
+  - first:
+      213: -2377438293480324872
+    second: Psykyo_64
+  - first:
+      213: 6673171943356800687
+    second: Psykyo_65
+  - first:
+      213: -5298860032484218444
+    second: Psykyo_68
+  - first:
+      213: -1888983640800069475
+    second: Psykyo_69
+  - first:
+      213: -6846439386442140308
+    second: Psykyo_70
+  - first:
+      213: 6294395338002515452
+    second: Psykyo_71
+  - first:
+      213: 893152767935430980
+    second: Psykyo_72
+  - first:
+      213: 84485902010110886
+    second: Psykyo_75
+  - first:
+      213: 5255114082118341421
+    second: Psykyo_76
+  - first:
+      213: -559507748510093679
+    second: Psykyo_77
+  - first:
+      213: 8260427847608401741
+    second: Psykyo_78
+  - first:
+      213: 2181727243741790713
+    second: Psykyo_79
+  - first:
+      213: -3745647083776379483
+    second: Psykyo_80
+  - first:
+      213: -2986546833357631946
+    second: Psykyo_81
+  - first:
+      213: -7680448243574850949
+    second: Psykyo_82
+  - first:
+      213: 2930355294382264379
+    second: Psykyo_83
+  - first:
+      213: 671755625302130814
+    second: Psykyo_84
+  - first:
+      213: -2582315718105165122
+    second: Psykyo_85
+  - first:
+      213: 6065496491290291613
+    second: Psykyo_88
+  - first:
+      213: 3076645451777036521
+    second: Psykyo_89
+  - first:
+      213: -1074368665916112499
+    second: Psykyo_90
+  - first:
+      213: 5624081771053409233
+    second: Psykyo_91
+  - first:
+      213: -7960601086325649932
+    second: Psykyo_92
+  - first:
+      213: 26888125270314720
+    second: Psykyo_93
+  - first:
+      213: -144190282835926917
+    second: Psykyo_96
+  - first:
+      213: -2588110711430635623
+    second: Psykyo_97
+  - first:
+      213: 8938858883071917461
+    second: Psykyo_98
+  - first:
+      213: 8483764144915364430
+    second: Psykyo_99
+  - first:
+      213: -5075084343838671601
+    second: Psykyo_100
+  - first:
+      213: 8129229842410700944
+    second: Psykyo_101
+  - first:
+      213: 901786719303161516
+    second: Psykyo_103
+  - first:
+      213: 5168479741002480087
+    second: Psykyo_104
+  - first:
+      213: 3502500886083666424
+    second: Psykyo_105
+  - first:
+      213: -3023998618228168462
+    second: Psykyo_106
+  - first:
+      213: 3924512454846154942
+    second: Psykyo_107
+  - first:
+      213: 4470256638844948449
+    second: Psykyo_112
+  - first:
+      213: -6756010893414628304
+    second: Psykyo_115
+  - first:
+      213: -8193836194867045272
+    second: Psykyo_0
+  - first:
+      213: -8852831097627734605
+    second: Psykyo_4
+  - first:
+      213: 5145214591325358450
+    second: Psykyo_8
+  - first:
+      213: 2488846159659251961
+    second: Psykyo_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Psykyo_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2920
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fc8878e93350df0800000000000000
+      internalID: -214708651258491076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2917
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f38043ba942581d0800000000000000
+      internalID: -3349230501029182473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2918
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8609ce9e352667760800000000000000
+      internalID: 7455254345704837224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2808
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3561d88b9fd32d510800000000000000
+      internalID: 1572387362658129491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2809
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc601c598ca96f30800000000000000
+      internalID: 4569373002899156174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2812
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e7d82ce739e9d70800000000000000
+      internalID: 9051834473700490752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2703
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df515e756fb915810800000000000000
+      internalID: 1752353212362724861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2706
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3879ecf2604bc20800000000000000
+      internalID: 3221206435876013039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2704
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d4a1264ad323da0800000000000000
+      internalID: -5966638780082664176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2599
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54471a6fd142ccab0800000000000000
+      internalID: -4986570976295553979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2579
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bad5364ed700df0800000000000000
+      internalID: -216034362240685238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2584
+        width: 83
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eb6552726052080800000000000000
+      internalID: -9212950697516548542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2580
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81220ab803834c990800000000000000
+      internalID: -7366701309319175656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2491
+        width: 86
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00126f8564c409d0800000000000000
+      internalID: -2808904327096037365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2476
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8675fe9540837a2e0800000000000000
+      internalID: -2114659908687276184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_20
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2478
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a42e17eade5b250800000000000000
+      internalID: 5959931015385467427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2370
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6ac47678f086b70800000000000000
+      internalID: 8892374538471122629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_23
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2370
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e203e3d8db692c000800000000000000
+      internalID: 54771886344515630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2262
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d212d14cfb5529d50800000000000000
+      internalID: 6742545874244411693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2274
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1c502f4a46e4f30800000000000000
+      internalID: 4561694132170768861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2132
+        width: 105
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa221b28541e8980800000000000000
+      internalID: -8534861874908222727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_29
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2145
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480d68c5cd886b6b0800000000000000
+      internalID: -5280883033018806140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_30
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2131
+        width: 89
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eabe90c9c9ba380800000000000000
+      internalID: -8958894839728198100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_31
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 2184
+        width: 114
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb99eeb93de08b90800000000000000
+      internalID: -7241527368539857980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_32
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2173
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27d96051a1266970800000000000000
+      internalID: 8747716302936332074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2023
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d2582ab28c2f3d0800000000000000
+      internalID: -3174254697606992622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2024
+        width: 107
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ba2605ab9d3a410800000000000000
+      internalID: 1487271696198183769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_36
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2030
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e67328374203d4e0800000000000000
+      internalID: -1958218908068251927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1915
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d19298f3ca34f180800000000000000
+      internalID: -9082569935136058921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_40
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1915
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe00f9d820f2470800000000000000
+      internalID: 8371913039586324270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1916
+        width: 163
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe12ab5977bedad0800000000000000
+      internalID: -2675499396755218699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_42
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1916
+        width: 106
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9977a56518a7082e0800000000000000
+      internalID: -2125564328200734823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_43
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1915
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5796d794cc221ec0800000000000000
+      internalID: -3597763929442969766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1804
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9872e73aecac790800000000000000
+      internalID: -7508962227095369279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1807
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f059bd671e24df0800000000000000
+      internalID: -197347533044510947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_46
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1808
+        width: 130
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2662531a36fa8120800000000000000
+      internalID: 2417014879330395695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1696
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4552e958cf48730800000000000000
+      internalID: 4000600019825939644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_50
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1652
+        width: 170
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6500daecfbbac60800000000000000
+      internalID: 7830563271500388031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_51
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1701
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3612b2858d3e6d520800000000000000
+      internalID: 2726617142751076707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1547
+        width: 143
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4530fb486c667b940800000000000000
+      internalID: 5311827288323457876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_55
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1544
+        width: 208
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719386552d2093100800000000000000
+      internalID: 88104770109716759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_56
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1556
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13dac6376a180ef0800000000000000
+      internalID: -141834357658954980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1412
+        width: 319
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493e0b180a4c7c8c0800000000000000
+      internalID: -3978995552108878956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_60
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1392
+        width: 207
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d5144134651af10800000000000000
+      internalID: 2279197732528807196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_61
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1439
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d443d0cc07e654da0800000000000000
+      internalID: -5961237101016173491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1282
+        width: 119
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0c1b1e774a10fd0800000000000000
+      internalID: -2377438293480324872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1259
+        width: 160
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae92e8c68edb9c50800000000000000
+      internalID: 6673171943356800687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_68
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1133
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9634100eaa676b0800000000000000
+      internalID: -5298860032484218444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_69
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1155
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98769f036bf8c5e0800000000000000
+      internalID: -1888983640800069475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_70
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1155
+        width: 119
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c657fdae6af8cf0a0800000000000000
+      internalID: -6846439386442140308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_71
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1142
+        width: 88
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5c385f53f2a5750800000000000000
+      internalID: 6294395338002515452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_72
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1145
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441c2f6d5bd156c00800000000000000
+      internalID: 893152767935430980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_75
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1040
+        width: 109
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a357d1fa772c2100800000000000000
+      internalID: 84485902010110886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1040
+        width: 103
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2311d63a6aede840800000000000000
+      internalID: 5255114082118341421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_77
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 956
+        width: 151
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e2af8caaa3c38f0800000000000000
+      internalID: -559507748510093679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_78
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 950
+        width: 140
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f717d9c5fe2a270800000000000000
+      internalID: 8260427847608401741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 942
+        width: 142
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f185007e5d074e10800000000000000
+      internalID: 2181727243741790713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_80
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1075
+        width: 75
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5f78592d9c40cc0800000000000000
+      internalID: -3745647083776379483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_81
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 956
+        width: 152
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e86ac7a77ad86d0800000000000000
+      internalID: -2986546833357631946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_82
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 953
+        width: 137
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ab2f5e301996590800000000000000
+      internalID: -7680448243574850949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_83
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 959
+        width: 86
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3017535d96baa820800000000000000
+      internalID: 2930355294382264379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_84
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1015
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70010e9e2e825900800000000000000
+      internalID: 671755625302130814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_85
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 942
+        width: 158
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb21f6c3985c92cd0800000000000000
+      internalID: -2582315718105165122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 820
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d6cb52ce8fc2450800000000000000
+      internalID: 6065496491290291613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 787
+        width: 128
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0ddf4dcb072ba20800000000000000
+      internalID: 3076645451777036521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 827
+        width: 122
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81824ef3631711f0800000000000000
+      internalID: -1074368665916112499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_91
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 821
+        width: 83
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d36367b290cc0e40800000000000000
+      internalID: 5624081771053409233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_92
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 765
+        width: 148
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd88f23d73468190800000000000000
+      internalID: -7960601086325649932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_93
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 805
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eec9638b968f5000800000000000000
+      internalID: 26888125270314720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_96
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 651
+        width: 119
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b706083a3bbbffdf0800000000000000
+      internalID: -144190282835926917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_97
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 647
+        width: 159
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f1bc5350f251cd0800000000000000
+      internalID: -2588110711430635623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_98
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 579
+        width: 247
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59db8d64bc43d0c70800000000000000
+      internalID: 8938858883071917461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_99
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 567
+        width: 115
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a30e77a826cb570800000000000000
+      internalID: 8483764144915364430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_100
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 546
+        width: 177
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d7950adada199b0800000000000000
+      internalID: -5075084343838671601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_101
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 651
+        width: 116
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090056e9873d0d070800000000000000
+      internalID: 8129229842410700944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_103
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 332
+        width: 155
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6da3b4e3ac38c00800000000000000
+      internalID: 901786719303161516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_104
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 388
+        width: 99
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9714fc0f02ab740800000000000000
+      internalID: 5168479741002480087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_105
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 381
+        width: 278
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f10284bff16b9030800000000000000
+      internalID: 3502500886083666424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_106
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 375
+        width: 297
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8ec3f47499806d0800000000000000
+      internalID: -3023998618228168462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_107
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 444
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb883b3e84ba67630800000000000000
+      internalID: 3924512454846154942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_112
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 285
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef4f258aba890e30800000000000000
+      internalID: 4470256638844948449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 122
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0340a5723e3dd32a0800000000000000
+      internalID: -6756010893414628304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2703
+        width: 85
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c1631c465a94e80800000000000000
+      internalID: -8193836194867045272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2492
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd0e51650d642580800000000000000
+      internalID: -8852831097627734605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2132
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279ca190969776740800000000000000
+      internalID: 5145214591325358450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Psykyo_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1149
+        width: 116
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b51f45682a8220800000000000000
+      internalID: 2488846159659251961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
