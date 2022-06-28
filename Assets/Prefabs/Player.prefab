@@ -98,7 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227bcd8515f9b56458625179b1dd354f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  thrust: 135
+  speed: 2
   grounded: 0
 --- !u!70 &5427896855060820325
 CapsuleCollider2D:
@@ -150,3 +151,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoint: 0
+  maxhitPoint: 0

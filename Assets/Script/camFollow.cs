@@ -19,8 +19,8 @@ public class camFollow : MonoBehaviour
         float interpolation = speed * Time.deltaTime;
    
         Vector3 position = transform.position;
-        position.y = Mathf.Lerp(transform.position.y, player.position.y+2, interpolation);
-        position.x = Mathf.Lerp(transform.position.x, player.position.x+5, interpolation);
+        position.y = Mathf.Lerp(transform.position.y, player.position.y+1, interpolation);
+        position.x = Mathf.Lerp(transform.position.x, player.position.x+4, interpolation);
 
         transform.position = position;
        

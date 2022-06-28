@@ -7,26 +7,35 @@ public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public string desireScene;
+    public bool toogle = false;
+    
     void Start()
     {
         desireScene = "Scene1";
         //UnityEditor.EditorApplication.isPlaying = true;
+     
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        Debug.Log("running");
-    }
 
     public void NewGameButton()
     {
         SceneManager.LoadScene(desireScene);
+        GameManager.Instance.gameMode = "NewGame";
     }
-
+    public void CurrentGame()
+    {
+        string loadScene = GameManager.Instance.sceneToload;
+        Debug.Log(loadScene);
+        if (loadScene != "")
+        {
+            SceneManager.LoadScene(loadScene);
+            GameManager.Instance.gameMode = "Old Game";
+        }
+    }
     public void ExitButton()
     {
-        //Application.Quit();
+        Application.Quit();
         Debug.Log("Game Closed");
     }
 }

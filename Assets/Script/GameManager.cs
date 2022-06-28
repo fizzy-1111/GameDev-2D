@@ -10,7 +10,10 @@ public class GameManager : MonoBehaviour
     public playerStats player;
     public PlayerMovement playerMov;
     public GameObject truePlayer;
-    public checkPoint check;
+    public GameObject canvas;
+    public string sceneToload;
+    public string gameMode;
+
     private void Awake()
     {
         if (Instance == null)
@@ -24,42 +27,51 @@ public class GameManager : MonoBehaviour
             Destroy(this);
 
         }
-        Init();
-    }
+       
 
+    }
     public void saveState()
     {
         string s = " ";
         s += "0" + "|";
         s += player.hitPoint.ToString() + "|";
-        PlayerPrefs.SetString("SaveState"+scene.name, s);
+        s += scene.name + "|";
+        s += truePlayer.transform.position.x + "|";
+        s += truePlayer.transform.position.y + "|";
+        PlayerPrefs.SetString("SaveState" , s);
+        //Debug.Log("is Saving");
     }
     public void loadState(Scene s, LoadSceneMode load)
     {
+        canvas = GameObject.Find("Canvas");
        
-        if (!PlayerPrefs.HasKey("SaveState"+scene.name)) return;
-        string[] data = PlayerPrefs.GetString("SaveState" + scene.name).Split('|');
-        Debug.Log(data[1]);
-        if (player && playerMov != null)
+        scene = SceneManager.GetActiveScene();
+        if (!PlayerPrefs.HasKey("SaveState")||gameMode=="NewGame") return;
+
+        string[] data = PlayerPrefs.GetString("SaveState").Split('|');
+        sceneToload = data[2];
+
+        if (player && playerMov != null && scene.name == sceneToload)
         {
-           // player.hitPoint = int.Parse(data[1]);
-            //playerMov.transform.position = new Vector3(float.Parse(data[2]),float.Parse(data[3],0));
+
+            player.hitPoint = int.Parse(data[1]);
+
+            playerMov.transform.position = new Vector3(float.Parse(data[3]), float.Parse(data[4]), 0);
 
         }
 
-    }
-    void Init()
-    {
-        truePlayer = GameObject.FindGameObjectWithTag("Player");
-        player = truePlayer.GetComponent<playerStats>();
-        playerMov = truePlayer.GetComponent<PlayerMovement>();
-        scene = SceneManager.GetActiveScene();
-        DontDestroyOnLoad(player);
-        Debug.Log("Init");
+
     }
     private void OnApplicationQuit()
     {
-        
+        if (scene.name!="Menu")
+        {
+            saveState();
+        }
+    }
+    public Scene getScene()
+    {
+        return scene;
     }
 
 }

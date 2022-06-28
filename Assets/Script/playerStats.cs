@@ -8,7 +8,7 @@ public class playerStats : MonoBehaviour
     public int hitPoint;
     public int maxhitPoint;
 
-    void Start()
+    void Awake()
     {
         maxhitPoint = 10;
         hitPoint = maxhitPoint;
@@ -17,6 +17,7 @@ public class playerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(hitPoint);
         if (hitPoint <= 0) { 
             hitPoint = 0;
             OnDeath();
@@ -26,6 +27,7 @@ public class playerStats : MonoBehaviour
 
     void OnDeath()
     {
-
+        GameManager.Instance.canvas.GetComponent<GameOverUI>().EndGame();
     }
 }
+

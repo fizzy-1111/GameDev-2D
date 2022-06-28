@@ -4,76 +4,208 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //// Start is called before the first frame update
 
-    float rightMove;
-    Vector3 upVector;
-    Vector3 leftJump;
-    Vector3 rightJump;
-    Vector3 toRight;
-    Rigidbody2D m_Rigidbody;
-    Transform playerPos;
+    //float rightMove;
+    //Vector3 upVector;
+    //Vector3 leftJump;
+    //Vector3 rightJump;
+    //Vector3 toRight;
+    //Rigidbody2D m_Rigidbody;
+    //Transform playerPos;
 
-    public float thrust = 100f;
-    public float speed = 0.1f;
-    public bool grounded;
-    private void Awake()
-    {
-        playerPos = transform;
-    }
+    //public float thrust = 100f;
+    //public float speed = 0.1f;
+    //public bool grounded;
+    //private void Awake()
+    //{
+    //    playerPos = transform;
+    //}
+    //void Start()
+    //{
+    //    rightMove=  Time.fixedDeltaTime * speed;
+    //    upVector = new Vector3(0,2, 0);
+    //    leftJump = new Vector3(-1, 1.5f, 0);
+    //    rightJump = new Vector3(1, 1.5f, 0);
+    //    toRight = new Vector3(rightMove, 0, 0);
+    //    m_Rigidbody = GetComponent<Rigidbody2D>();
+    //    playerPos = transform;
+    //    grounded = false;
+
+    //}
+
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    if(!PauseMenu.GameisPaused&& !GameManager.Instance.canvas.GetComponent<GameOverUI>().GamehasEnded)
+    //    PlayerControl();
+    //}
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.tag == "ground"||collision.gameObject.tag=="enemy")
+    //    {
+    //        grounded = true;
+    //    }
+    //    if (collision.gameObject.tag == "death")
+    //    {
+    //        GameManager.Instance.canvas.GetComponent<GameOverUI>().EndGame();
+    //    }
+    //}
+    //public void setPos(float x,float y,float z)
+    //{
+    //    if(playerPos!=null)
+    //    playerPos.position = new Vector3(x, y, z);
+    //}
+    //void PlayerControl()
+    //{
+    //    if (Input.GetKey(KeyCode.Space) && grounded)
+    //    {
+    //        if (Input.GetKey(KeyCode.D))
+    //        {
+    //            m_Rigidbody.AddForce(rightJump * thrust);
+
+    //        }
+    //        else if (Input.GetKey(KeyCode.A))
+    //        {
+    //            m_Rigidbody.AddForce(leftJump * thrust);
+
+    //        }
+    //        else
+    //        {
+    //            m_Rigidbody.AddForce(upVector * thrust);
+    //        }
+    //        grounded = false;
+    //    }
+    //    if (Input.GetKey(KeyCode.D) && grounded)
+    //    {
+    //        playerPos.position += toRight;
+    //    }
+    //    if (Input.GetKey(KeyCode.A) && grounded)
+    //    {
+    //        playerPos.position -= toRight;
+
+    //    }
+    //}
+    // Move player in 2D space
+    public float maxSpeed = 3.4f;
+    public float jumpHeight = 6.5f;
+    public float gravityScale = 1.5f;
+
+    bool facingRight = true;
+    float moveDirection = 0;
+    public bool isGrounded = false;
+    Vector3 cameraPos;
+    Rigidbody2D r2d;
+    CapsuleCollider2D mainCollider;
+    Transform t;
+
+    // Use this for initialization
     void Start()
     {
-        rightMove=  Time.fixedDeltaTime * speed;
-        upVector = new Vector3(0,2, 0);
-        leftJump = new Vector3(-1, 1.5f, 0);
-        rightJump = new Vector3(1, 1.5f, 0);
-        toRight = new Vector3(rightMove, 0, 0);
-        m_Rigidbody = GetComponent<Rigidbody2D>();
-        playerPos = transform;
-        grounded = false;
+        t = transform;
+        r2d = GetComponent<Rigidbody2D>();
+        mainCollider = GetComponent<CapsuleCollider2D>();
+        r2d.freezeRotation = true;
+        r2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        r2d.gravityScale = gravityScale;
+        facingRight = t.localScale.x > 0;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space)&&grounded)
+        // Movement controls
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
         {
-            if (Input.GetKey(KeyCode.D)){
-                m_Rigidbody.AddForce(rightJump * thrust);
-              
-            }
-            else if (Input.GetKey(KeyCode.A))
-            {
-                m_Rigidbody.AddForce(leftJump *thrust);
-              
-            }
-            else
-            {
-                m_Rigidbody.AddForce(upVector * thrust);
-            }
-            grounded = false;
+            moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
         }
-        if (Input.GetKey(KeyCode.D) && grounded)
+        else
         {
-            playerPos.position += toRight;
+            if (isGrounded || r2d.velocity.magnitude < 0.01f)
+            {
+                moveDirection = 0;
+            }
         }
-        if (Input.GetKey(KeyCode.A) && grounded)
-        {
-            playerPos.position -= toRight;
 
+        // Change facing direction
+        if (moveDirection != 0)
+        {
+            if (moveDirection > 0 && !facingRight)
+            {
+                facingRight = true;
+                t.localScale = new Vector3(Mathf.Abs(t.localScale.x), t.localScale.y, transform.localScale.z);
+            }
+            if (moveDirection < 0 && facingRight)
+            {
+                facingRight = false;
+                t.localScale = new Vector3(-Mathf.Abs(t.localScale.x), t.localScale.y, t.localScale.z);
+            }
         }
+
+        // Jumping
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+                         if (Input.GetKey(KeyCode.D))
+                        {
+                            r2d.velocity = new Vector2(maxSpeed, jumpHeight);
+
+            }
+                        else if (Input.GetKey(KeyCode.A))
+                        {
+                            
+                             r2d.velocity = new Vector2(-maxSpeed, jumpHeight);
+
+                        }
+                        else
+                        {
+                             r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+              
+                        }
+            r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+        }
+
+    }
+
+    void FixedUpdate()
+    {
+        Bounds colliderBounds = mainCollider.bounds;
+        float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
+        Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
+        // Check if player is grounded
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
+        //Check if any of the overlapping colliders are not player collider, if so, set isGrounded to true
+        isGrounded = false;
+        if (colliders.Length > 0)
+        {
+            for (int i = 0; i < colliders.Length; i++)
+            {
+                if (colliders[i] != mainCollider)
+                {
+                    isGrounded = true;
+                    break;
+                }
+            }
+        }
+
+        // Apply movement velocity
+        r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+
+        // Simple debug
+        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
+        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "ground"||collision.gameObject.tag=="enemy")
+        if (collision.gameObject.tag == "death")
         {
-            grounded = true;
+            GameManager.Instance.canvas.GetComponent<GameOverUI>().EndGame();
         }
+      
     }
-    public void setPos(float x,float y)
+    public void setPos(float x, float y, float z)
     {
-        if(playerPos!=null)
-        playerPos.position = new Vector3(x, y, 0);
+        if (t != null)
+            t.position = new Vector3(x, y, z);
     }
 }

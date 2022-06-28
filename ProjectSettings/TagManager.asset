@@ -7,6 +7,8 @@ TagManager:
   - ground
   - enemy
   - player
+  - menu
+  - death
   layers:
   - Default
   - TransparentFX
