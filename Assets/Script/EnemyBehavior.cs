@@ -64,18 +64,19 @@ public class EnemyBehavior : MonoBehaviour
     }
     void followPlayer()
     {
-        if (Vector3.Distance(enemy.position, Player.transform.position) >=0.8)
+        if (Vector3.Distance(enemy.position, Player.transform.position) >1)
         {
             enemy.position += (Player.transform.position - enemy.position) * Time.deltaTime * speed*4;
-
+            //Debug.Log(Vector3.Distance(enemy.position, Player.transform.position));
+            GameManager.Instance.player.nearEnemy = Vector3.zero;
         }
         else
         {
+            GameManager.Instance.player.nearEnemy = enemy.position;
             if (Time.time > fireRate + lastShot)
             {
                 Player.hitPoint -= 1;
                 lastShot = Time.time;
-                hitPoint -= 2;
             }
         }
     }

@@ -53,20 +53,22 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\AnimatorController.cs" />
+    <Compile Include="Assets\Script\InitPlayer.cs" />
     <Compile Include="Assets\Script\playerStats.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
     <Compile Include="Assets\Script\checkPoint.cs" />
     <Compile Include="Assets\Script\PauseMenu.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\GameUI.cs" />
+    <Compile Include="Assets\Script\GameOverUI.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
     <Compile Include="Assets\Script\spawnMachine.cs" />
     <Compile Include="Assets\Script\Portal.cs" />
     <Compile Include="Assets\Script\HealthBar.cs" />
     <Compile Include="Assets\Script\camFollow.cs" />
     <Compile Include="Assets\Script\EnemyBehavior.cs" />
-    <Compile Include="Assets\Script\InitPlayer.cs" />
-    <Compile Include="Assets\Script\GameOverUI.cs" />
+    <Compile Include="Assets\Script\Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

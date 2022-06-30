@@ -7,7 +7,8 @@ public class playerStats : MonoBehaviour
     // Start is called before the first frame update
     public int hitPoint;
     public int maxhitPoint;
-
+    public bool attackSignal = false;
+    public Vector3 nearEnemy=Vector3.zero;
     void Awake()
     {
         maxhitPoint = 10;

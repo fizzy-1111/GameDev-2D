@@ -20,7 +20,7 @@ public class camFollow : MonoBehaviour
    
         Vector3 position = transform.position;
         position.y = Mathf.Lerp(transform.position.y, player.position.y+1, interpolation);
-        position.x = Mathf.Lerp(transform.position.x, player.position.x+4, interpolation);
+        position.x = Mathf.Lerp(transform.position.x, player.position.x+3, interpolation);
 
         transform.position = position;
        
