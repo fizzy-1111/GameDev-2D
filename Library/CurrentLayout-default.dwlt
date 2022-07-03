@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1680
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 42
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 43
+  controlID: 37
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 44
+  controlID: 38
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 397
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -451,7 +451,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5e99fcffca9dfcfff69ffcffd0a3fcff66a4fcff84bbfcffc4bcfcffdcbcfcffeacafcff74cffcff06d3fcff6cd5fcff18d7fcffe6dbfcffd030fdff8e42fdffaa52fdffa060fdff4c66fdffd273fdff4a79fdff867efdff1c84fdff8c89fdff6490fdff3a98fdffb89dfdfff4a2fdff68a8fdffeec1fdffdac3fdff18e9fdffc2ebfdffd2eefdffb0f2fdff84f9fdff68fbfdff6215feff9e1afeff8a1cfeffe41efeffc220feffa622feff8424feff6826fefff826feffdc28feffba2afeffb42cfefffc31feff8c37feff363bfeff343dfeff983ffeff9e41feff2044feff7c45fefffe46feff304afeffe24dfeffaa50feff2a53feff8854feff4859feff485cfeff6a5ffeff3864feff1066fefff467feffb469feff126bfeff8a6cfeff1a6dfeff846efeff6870feffe671feff5674feff6a76feff6a8ffeff6690feff2c94feff2296feffc499feff9ca2feffaea2feffeca7feff62bcfeffc4c7feffbecffeff48d3feff16d9feff98dcfeffbae1feffb4e5feff7ce8feff7aeefeffbaf4feffecf6feff58fafeff362bffffae2effffec33ffffc838ffffa84fffff1253ffffc456fffff058ffff805dffffa268ffffd06affff2e6cffff0e70ffff6473ffffcc77ffff207bffff7c9effff2ea8ffff9eabffffbcdaffffaae1fffffee4ffff6ef1ffffd8f4ffff5cfaffffe2790000287e0000e494000004950000bcaa000094ab0000faab0000b0b700004cf200001ef3000084f300005cf500001cf80000acf80000dcf800001efb0000880d0100141f0100be330100d03301004c340100
+      m_ExpandedIDs: 48fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -602,36 +602,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/kietta/Development/GameDev-2D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c580000
-    m_LastClickedID: 22668
-    m_ExpandedIDs: 00000000344f0000364f0000384f00003a4f00003c4f00003e4f0000404f000032520000525200002c5e00001067000000ca9a3bffffff7f
+    m_SelectedIDs: 444f0000
+    m_LastClickedID: 20292
+    m_ExpandedIDs: 00000000ea4e0000ec4e0000ee4e0000f04e0000f24e0000f44e0000f64e0000f84e0000fa4e0000fc4e0000fe4e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 22668
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -645,7 +645,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000344f0000364f0000384f00003a4f00003c4f00003e4f0000404f0000
+    m_ExpandedIDs: 00000000ea4e0000ec4e0000ee4e0000f04e0000f24e0000f44e0000f64e0000f84e0000fa4e0000fc4e0000fe4e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
