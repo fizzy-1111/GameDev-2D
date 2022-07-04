@@ -19,6 +19,25 @@ public class AnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!GameManager.Instance.player.isDying)
+            Animate();
+    }
+    void Shoot()
+    {
+        Instantiate(BulletPref, new Vector3(transform.position.x+0.6f*switchDir(),transform.position.y,transform.position.z), Quaternion.identity);
+    }
+    private void FixedUpdate()
+    {
+        anim.SetFloat("Speed", Mathf.Abs(GameManager.Instance.playerMov.moveDirection * GameManager.Instance.playerMov.maxSpeed));
+        if (GameManager.Instance.playerMov.isGrounded && isJumping)
+        {
+            isJumping = false;
+            anim.SetBool("isJumping", false);
+        }
+       
+    }
+    void Animate()
+    {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             isJumping = true;
@@ -43,10 +62,8 @@ public class AnimatorController : MonoBehaviour
                     t.transform.localScale = new Vector3(-Mathf.Abs(t.transform.localScale.x), t.transform.localScale.y, t.transform.localScale.z);
                 }
             }
-            else
-            {
-                
-            }
+            GameManager.Instance.player.attackSignal = true;
+           
            
         }
         if (Input.GetKeyDown(KeyCode.W))
@@ -56,19 +73,13 @@ public class AnimatorController : MonoBehaviour
         }
 
     }
-    void Shoot()
+    int switchDir()
     {
-        Instantiate(BulletPref, transform.position, transform.rotation);
-    }
-    private void FixedUpdate()
-    {
-        anim.SetFloat("Speed", Mathf.Abs(GameManager.Instance.playerMov.moveDirection * GameManager.Instance.playerMov.maxSpeed));
-        if (GameManager.Instance.playerMov.isGrounded && isJumping)
+        if (t.facingRight)
         {
-            isJumping = false;
-            anim.SetBool("isJumping", false);
+            return 1;
         }
-
+        else return -1;
     }
 
 

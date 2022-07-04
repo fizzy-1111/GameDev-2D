@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - checkPoint
     - playerStats
     - spawnMachine
+    - specialScale
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -205,23 +206,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6296}
     - Class: 114
-      Script: {instanceID: 6364}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 6374}
+      Script: {instanceID: 6376}
     - Class: 114
-      Script: {instanceID: 6472}
+      Script: {instanceID: 6474}
     - Class: 114
-      Script: {instanceID: 6608}
+      Script: {instanceID: 6610}
     - Class: 114
-      Script: {instanceID: 6724}
+      Script: {instanceID: 6726}
     - Class: 114
-      Script: {instanceID: 6782}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 7404}
+      Script: {instanceID: 7406}
     - Class: 114
-      Script: {instanceID: 7718}
+      Script: {instanceID: 7720}
     - Class: 114
-      Script: {instanceID: 7952}
+      Script: {instanceID: 7954}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -312,11 +313,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6364}
     - Class: 114
-      Script: {instanceID: 6766}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 8070}
+      Script: {instanceID: 6768}
     - Class: 114
-      Script: {instanceID: 37180}
+      Script: {instanceID: 8072}
+    - Class: 114
+      Script: {instanceID: 55196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -403,11 +406,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6364}
     - Class: 114
-      Script: {instanceID: 6766}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 8070}
-    - Class: 114
-      Script: {instanceID: 37180}
+      Script: {instanceID: 6768}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -651,7 +652,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerWidget
   - hash:
       serializedVersion: 2
-      Hash: aa45058eadf15d9bbe3ed86bd64f1022
+      Hash: d884a4e1f0ac0636f76a24449563e88f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerStats
@@ -1113,7 +1114,7 @@ ScriptsOnlyBuild:
     className: AnimateSwing
   - hash:
       serializedVersion: 2
-      Hash: e628d8b00f8bf167809d46be62534283
+      Hash: d75bccdf35612753d4bec89bd8e06518
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: spawnMachine
@@ -1213,6 +1214,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: c356e2b702e15f2a6735ad685de3c132
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bullet
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -1479,7 +1486,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 422f36e72229bace3914201cc46610e4
+      Hash: 41fb79cb74a7306f1d2b11742e833d7a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyBehavior
@@ -1503,10 +1510,16 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: c356e2b702e15f2a6735ad685de3c132
+      Hash: 659d6ceab26f9e4237abaaf29249f293
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Bullet
+    className: EnemyAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: c87df8615283cc54e358d0ab48048551
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: specialScale
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity

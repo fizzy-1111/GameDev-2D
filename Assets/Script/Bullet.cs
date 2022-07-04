@@ -14,5 +14,16 @@ public class Bullet : MonoBehaviour
         r2d.velocity = transform.right * speed;
         else r2d.velocity = -transform.right * speed;
     }
+    private void Update()
+    {
+        if (Vector3.Distance(transform.position, GameManager.Instance.truePlayer.transform.position) > 10)
+        {
+            Destroy(gameObject);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+    }
 
 }

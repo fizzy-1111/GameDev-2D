@@ -9,10 +9,12 @@ public class playerStats : MonoBehaviour
     public int maxhitPoint;
     public bool attackSignal = false;
     public Vector3 nearEnemy=Vector3.zero;
+    public bool isDying;
     void Awake()
     {
-        maxhitPoint = 10;
+        maxhitPoint = 100;
         hitPoint = maxhitPoint;
+        isDying = false;
     }
 
     // Update is called once per frame
@@ -23,10 +25,16 @@ public class playerStats : MonoBehaviour
             hitPoint = 0;
             OnDeath();
         }
+        attackSignal = false;
+    }
+    public void OnDeath()
+    {
+        GameManager.Instance.truePlayer.GetComponent<AnimatorController>().anim.SetBool("isDeath", true);
+        isDying = true;
+        Invoke("deathUI", 2f);
 
     }
-
-    void OnDeath()
+    void deathUI()
     {
         GameManager.Instance.canvas.GetComponent<GameOverUI>().EndGame();
     }
