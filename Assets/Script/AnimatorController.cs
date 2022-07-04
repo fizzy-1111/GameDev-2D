@@ -41,7 +41,7 @@ public class AnimatorController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             isJumping = true;
-            Debug.Log(isJumping);
+      
             anim.SetBool("isJumping", true);
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))

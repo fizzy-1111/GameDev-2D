@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     
     void Start()
     {
-        desireScene = "Scene1";
+        desireScene = "BossRoom";
         //UnityEditor.EditorApplication.isPlaying = true;
      
     }

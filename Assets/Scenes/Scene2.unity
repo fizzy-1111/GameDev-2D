@@ -414,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 79211326709876652, guid: e7cc4f7516df72e428909aef0a5f1ea1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 79211326709876652, guid: e7cc4f7516df72e428909aef0a5f1ea1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -584,6 +584,10 @@ PrefabInstance:
       propertyPath: spawn2
       value: 
       objectReference: {fileID: 296914697}
+    - target: {fileID: 814616796791783171, guid: 6b65f5650ba9226438fe51e20251a077, type: 3}
+      propertyPath: enemyRoot
+      value: 
+      objectReference: {fileID: 2392205051722887964, guid: 369db7a7b2ab80e4e96e7aabac4b3173, type: 3}
     - target: {fileID: 814616796791783180, guid: 6b65f5650ba9226438fe51e20251a077, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1127,7 +1131,7 @@ Transform:
   m_GameObject: {fileID: 1853140558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.25, y: -5.47, z: -21.899963}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.3375, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14

@@ -46,7 +46,9 @@ public class PlayerMovement : MonoBehaviour
         // Check if player is grounded
         Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
         //Check if any of the overlapping colliders are not player collider, if so, set isGrounded to true
+        
         isGrounded = false;
+
         if (colliders.Length > 0)
         {
             for (int i = 0; i < colliders.Length; i++)
@@ -71,6 +73,10 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "death")
         {
             GameManager.Instance.player.OnDeath();
+        }
+        if (collision.gameObject.tag == "bossBullet")
+        {
+            Debug.Log("Hurt");
         }
       
     }

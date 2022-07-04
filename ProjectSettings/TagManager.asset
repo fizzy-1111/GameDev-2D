@@ -10,6 +10,7 @@ TagManager:
   - menu
   - death
   - bullet
+  - bossBullet
   layers:
   - Default
   - TransparentFX
