@@ -66,9 +66,11 @@
     <Compile Include="Assets\Script\spawnMachine.cs" />
     <Compile Include="Assets\Script\Portal.cs" />
     <Compile Include="Assets\Script\HealthBar.cs" />
+    <Compile Include="Assets\Script\Bullet.cs" />
     <Compile Include="Assets\Script\camFollow.cs" />
     <Compile Include="Assets\Script\EnemyBehavior.cs" />
-    <Compile Include="Assets\Script\Bullet.cs" />
+    <Compile Include="Assets\Script\EnemyAnimation.cs" />
+    <Compile Include="Assets\Script\specialScale.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

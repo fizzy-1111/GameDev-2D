@@ -33,45 +33,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Movement controls
-      
-        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
-        {
-            moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
-        }
-        else
-        {
-            if (isGrounded || r2d.velocity.magnitude < 0.01f)
-            {
-                moveDirection = 0;
-            }
-        }
-
-        // Change facing direction
-        MoveDir();
-
-        // Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            if (Input.GetKey(KeyCode.D))
-            {
-                r2d.velocity = new Vector2(maxSpeed, jumpHeight);
-
-
-            }
-            else if (Input.GetKey(KeyCode.A))
-            {
-
-                r2d.velocity = new Vector2(-maxSpeed, jumpHeight);
-              
-
-            }
-            else
-            {
-                r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
-
-            }
-        }
+        if(!GameManager.Instance.player.isDying)
+        Movement();
     }
 
 
@@ -107,9 +70,50 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "death")
         {
-            GameManager.Instance.canvas.GetComponent<GameOverUI>().EndGame();
+            GameManager.Instance.player.OnDeath();
         }
       
+    }
+    void Movement()
+    {
+
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
+        {
+            moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
+        }
+        else
+        {
+            if (isGrounded || r2d.velocity.magnitude < 0.01f)
+            {
+                moveDirection = 0;
+            }
+        }
+
+        // Change facing direction
+        MoveDir();
+
+        // Jumping
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            if (Input.GetKey(KeyCode.D))
+            {
+                r2d.velocity = new Vector2(maxSpeed, jumpHeight);
+
+
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+
+                r2d.velocity = new Vector2(-maxSpeed, jumpHeight);
+
+
+            }
+            else
+            {
+                r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+
+            }
+        }
     }
     public void setPos(float x, float y, float z)
     {

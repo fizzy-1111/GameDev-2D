@@ -5,17 +5,18 @@ using UnityEngine;
 public class spawnMachine : MonoBehaviour
 {
     // Start is called before the first frame update
-    public EnemyBehavior enemy;
+    public GameObject enemyRoot;
+    EnemyBehavior enemy;
     public Transform spawn2;
-    EnemyBehavior enemyClone;
+    GameObject enemyClone;
     void Start()
     {
-
+        enemy = enemyRoot.GetComponentInChildren<EnemyBehavior>();
         if (enemy != null&&spawn2!=null)
         {
             enemy.spawnPoint = transform;
             enemy.spawn2 = spawn2;
-            enemyClone=Instantiate(enemy, transform.position, Quaternion.identity);
+            enemyClone=Instantiate(enemyRoot, transform.position, Quaternion.identity);
         }
     }
 
@@ -30,6 +31,6 @@ public class spawnMachine : MonoBehaviour
     void createNewEnemy()
     {
         if(enemyClone==null)
-        enemyClone = Instantiate(enemy, transform.position, Quaternion.identity);
+        enemyClone = Instantiate(enemyRoot, transform.position, Quaternion.identity);
     }
 }
