@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3777171358166468048}
   m_Layer: 0
   m_Name: Head2
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,6 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5427896855060820250, guid: 79d914053ad56b149b6c58e289f307fe, type: 3}
   parent: {fileID: 3777171359526542301}
+  bulletPref: {fileID: 0}
   toX: -0.7
   toY: 0
   speed: 0.1
@@ -186,7 +187,7 @@ GameObject:
   - component: {fileID: 3777171358704530904}
   m_Layer: 0
   m_Name: Head3
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3777171358704530914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.322, y: -0.44, z: 0}
+  m_LocalPosition: {x: 0.395, y: -0.431, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3777171359526542300}
@@ -315,6 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5427896855060820250, guid: 79d914053ad56b149b6c58e289f307fe, type: 3}
   parent: {fileID: 3777171359526542301}
+  bulletPref: {fileID: 0}
   toX: 0.7
   toY: 0
   speed: 0.1
@@ -387,6 +389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yourturn: 0
+  leftGun: {fileID: 0}
+  rightGun: {fileID: 0}
 --- !u!1 &3777171360152448749
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +407,7 @@ GameObject:
   - component: {fileID: 3777171360152448747}
   m_Layer: 0
   m_Name: Head1
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -532,6 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5427896855060820250, guid: 79d914053ad56b149b6c58e289f307fe, type: 3}
   parent: {fileID: 3777171359526542301}
+  bulletPref: {fileID: 0}
   toX: 0
   toY: 0.8
   speed: 0.1

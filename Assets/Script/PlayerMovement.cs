@@ -74,11 +74,7 @@ public class PlayerMovement : MonoBehaviour
         {
             GameManager.Instance.player.OnDeath();
         }
-        if (collision.gameObject.tag == "bossBullet")
-        {
-            Debug.Log("Hurt");
-        }
-      
+
     }
     void Movement()
     {

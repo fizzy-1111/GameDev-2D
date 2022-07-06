@@ -11,6 +11,7 @@ TagManager:
   - death
   - bullet
   - bossBullet
+  - Boss
   layers:
   - Default
   - TransparentFX

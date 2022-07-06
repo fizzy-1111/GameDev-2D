@@ -62,6 +62,8 @@
     <Compile Include="Assets\Script\checkPoint.cs" />
     <Compile Include="Assets\Script\PauseMenu.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\childControl.cs" />
+    <Compile Include="Assets\Script\HeadBehavior.cs" />
     <Compile Include="Assets\Script\GameUI.cs" />
     <Compile Include="Assets\Script\GameOverUI.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
@@ -71,23 +73,8 @@
     <Compile Include="Assets\Script\Bullet.cs" />
     <Compile Include="Assets\Script\camFollow.cs" />
     <Compile Include="Assets\Script\EnemyBehavior.cs" />
-    <Compile Include="Assets\Script\HeadBehavior.cs" />
-    <Compile Include="Assets\Script\childControl.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Core\Pool.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterBasic.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Emitters\ColorPulse.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Attributes\FoldAttribute.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Attributes\SeperatorAttribute.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterAdvanced.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterBase.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Attributes\FoldManager.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Renderer\IndirectRenderer.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\ProjectileManager.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Core\ProjectileData.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterShape.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Emitters\EmitterGroup.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Core\ProjectilePrefab.cs" />
-    <Compile Include="Assets\Unity-Bullet-Hell\Scripts\Attributes\ConditionalFieldAttribute.cs" />
+    <Compile Include="Assets\Script\bossSkill.cs" />
+    <Compile Include="Assets\Script\BossStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -97,7 +84,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Unity-Bullet-Hell\ProjectileShader.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -109,7 +95,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Unity-Bullet-Hell\ProjectileShader_StaticColor.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
