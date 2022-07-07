@@ -8,11 +8,14 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     public string desireScene;
     public bool toogle = false;
+    AudioSource audio;
+    bool block = false;
     
     void Start()
     {
-        desireScene = "BossRoom";
+        //desireScene = "Scene1";
         //UnityEditor.EditorApplication.isPlaying = true;
+        audio = GetComponent<AudioSource>();
      
     }
 
@@ -20,10 +23,28 @@ public class MainMenu : MonoBehaviour
 
     public void NewGameButton()
     {
+        audio.Play(0);
+        Invoke("Play1", 0.5f);
+       
+    }
+    public void CurrentGame()
+    {
+        audio.Play(0);
+        Invoke("Play2", 0.5f);
+
+    }
+    public void ExitButton()
+    {
+        audio.Play(0);
+        Invoke("Play3", 0.5f);
+
+    }
+    void Play1()
+    {
         SceneManager.LoadScene(desireScene);
         GameManager.Instance.gameMode = "NewGame";
     }
-    public void CurrentGame()
+    void Play2()
     {
         string loadScene = GameManager.Instance.sceneToload;
         Debug.Log(loadScene);
@@ -33,7 +54,7 @@ public class MainMenu : MonoBehaviour
             GameManager.Instance.gameMode = "Old Game";
         }
     }
-    public void ExitButton()
+    void Play3()
     {
         Application.Quit();
         Debug.Log("Game Closed");

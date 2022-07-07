@@ -8,6 +8,7 @@ public class Portal : MonoBehaviour
     Collider2D m_ObjectCollider;
 
     public string desireScene;
+    public bool checkPoint;
     private void Start()
     {
         m_ObjectCollider = GetComponent<Collider2D>();
@@ -16,8 +17,17 @@ public class Portal : MonoBehaviour
     {
         if (other.gameObject.tag== "Player")
         {
-            GameManager.Instance.saveState();
-            SceneManager.LoadScene(desireScene);
+            if (!checkPoint)
+            {
+                GameManager.Instance.saveState();   
+                SceneManager.LoadScene(desireScene);
+
+            }
+            else
+            {
+                GameManager.Instance.saveState();
+                gameObject.SetActive(false);
+            }
         }
     }
 }

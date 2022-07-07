@@ -31,7 +31,7 @@ public class playerStats : MonoBehaviour
     {
         GameManager.Instance.truePlayer.GetComponent<AnimatorController>().anim.SetBool("isDeath", true);
         isDying = true;
-        Invoke("deathUI", 2f);
+        Invoke("deathUI", 0.8f);
 
     }
     void deathUI()

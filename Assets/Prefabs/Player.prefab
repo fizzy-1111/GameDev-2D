@@ -53,7 +53,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -214708651258491076, guid: dc5e914f84072cd4bb0c4c0f76ef5ea9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227bcd8515f9b56458625179b1dd354f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 2
-  jumpHeight: 7
+  maxSpeed: 3
+  jumpHeight: 8
   gravityScale: 1.5
   facingRight: 1
   moveDirection: 0

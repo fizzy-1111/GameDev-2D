@@ -63,10 +63,10 @@ public class HeadBehavior : MonoBehaviour
             if (Time.time > fireRate + lastShot)
             {
                 anim.SetTrigger("isDashing");
-                r2d.velocity = new Vector3(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y, 0).normalized * 6;
+                r2d.velocity = new Vector3(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y, 0).normalized * 70;
                 lastShot = Time.time;
                 stickToParent = false;
-                Invoke("DoNothing", 0.8f);
+                Invoke("DoNothing", 1.8f);
             }
         }
 

@@ -71,25 +71,39 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (toggle)
         {
-            enemy.position += (spawn2.position - spawnPoint.position) * Time.deltaTime * speed;
+            enemy.position += (spawn2.position - spawnPoint.position).normalized * Time.deltaTime * speed;
             enemy.localScale = new Vector3(Mathf.Abs(enemy.localScale.x)*swapDir(), enemy.localScale.y, enemy.localScale.z);
           
             if (range2 <= 0.5) toggle = false;
         }
         else
         {
-            enemy.position += (spawnPoint.position - spawn2.position) * Time.deltaTime * speed;
+            enemy.position += (spawnPoint.position - spawn2.position).normalized * Time.deltaTime * speed;
             enemy.localScale = new Vector3(Mathf.Abs(enemy.localScale.x) * swapDir(), enemy.localScale.y, enemy.localScale.z);
             
             if (range1 <= 0.5) toggle = true;
         }
+
     }
     void followPlayer()
     {
         if (Vector3.Distance(enemy.position, Player.transform.position) >1)
         {
-            enemy.position += (Player.transform.position - enemy.position) * Time.deltaTime * speed*4;
+            enemy.position += (Player.transform.position - enemy.position).normalized * Time.deltaTime * speed;
             //Debug.Log(Vector3.Distance(enemy.position, Player.transform.position));
+            if (enemy.position.x >= GameManager.Instance.playerMov.transform.position.x)
+            {
+                enemy.localScale = new Vector3(-Mathf.Abs(enemy.localScale.x), enemy.localScale.y, enemy.localScale.z);
+
+
+            }
+            else
+            {
+                enemy.localScale = new Vector3(Mathf.Abs(enemy.localScale.x), enemy.localScale.y, enemy.localScale.z);
+
+
+
+            }
             GameManager.Instance.player.nearEnemy = Vector3.zero;
         }
         else

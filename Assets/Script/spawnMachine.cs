@@ -30,7 +30,13 @@ public class spawnMachine : MonoBehaviour
     }
     void createNewEnemy()
     {
-        if(enemyClone==null)
-        enemyClone = Instantiate(enemyRoot, transform.position, Quaternion.identity);
+        if (enemyClone == null)
+        {
+            enemy.spawnPoint = transform;
+            enemy.spawn2 = spawn2;
+            enemyClone = Instantiate(enemyRoot, transform.position, Quaternion.identity);
+        }
+
+        Debug.Log("Creating");
     }
 }
