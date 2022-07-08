@@ -26,7 +26,7 @@ public class Portal : MonoBehaviour
             else
             {
                 GameManager.Instance.saveState();
-                gameObject.SetActive(false);
+                //gameObject.SetActive(false);
             }
         }
     }

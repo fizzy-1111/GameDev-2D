@@ -9,10 +9,12 @@ public class GameOverUI : MonoBehaviour
      public bool GamehasEnded = false;
      public GameObject UIGameOver;
     AudioSource audio;
+  
     void Start()
     {
         UIGameOver.SetActive(false);
         audio = GetComponent<AudioSource>();
+    
     }
 
     public void EndGame()

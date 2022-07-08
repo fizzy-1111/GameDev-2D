@@ -8,8 +8,12 @@ public class Gadget : MonoBehaviour
     public string gadgetName;
     public Transform spawnPoint;
     public Transform spawn2;
+    public GameObject bulletPref;
     bool toggle = true;
     float speed = 0.2f;
+    public float fireRate = 4f;
+    private float lastShot = 0.0f;
+
     void Start()
     {
         
@@ -43,9 +47,14 @@ public class Gadget : MonoBehaviour
             case "Rotating Plane":
                 transform.Rotate(Vector3.forward * (speed*50 * Time.deltaTime));
                 break;
+            case "Disappear":
+                //appear();
+              
+                break;
             default:
                 break;
         }
     }
+  
 
 }

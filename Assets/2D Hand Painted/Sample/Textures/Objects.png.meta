@@ -110,6 +110,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -118,9 +120,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -141,9 +143,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -178,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 1563
-        width: 2028
-        height: 485
+        y: 1614
+        width: 2041
+        height: 434
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1183,6 +1188,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Flame1: 1996736365424406157
+      Stake5: -481245653516771970
+      WoodenBox1: 7176612008784037988
+      Stake1: -6694273423969811630
+      Stake6: -552038436828552447
+      Spikes3: -258877172012560662
+      BlueFish: 7642980859614939925
+      Pottery6: 2629797680524218922
+      TorchBase1: -6805859551083971301
+      Pottery1: 7846451417021390320
+      GrayPinkFish: 3275407576765064038
+      Flame2: -5111738877264174855
+      Pottery8: 9097861789848553255
+      Crystals5: 6723339952603699720
+      BombOld: 3082405126085708043
+      Flame4: 4824839325428195188
+      Bucket: 2703656358410550512
+      Candle8: -5643596672663569652
+      Candle3: 4609675031244458393
+      CutTreeTrunk: 1626533992575499785
+      FallenTrunk: -2199377766806250543
+      Skeleton 6: -4458533334289142918
+      Pottery5: -8422439587084867187
+      Flame3: 3927549165190998101
+      OrangeFish: -174804484191063705
+      Spikes4: -5123786616735696353
+      Goblet1: 5554825445024860723
+      Candle7: -5682520854953723632
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

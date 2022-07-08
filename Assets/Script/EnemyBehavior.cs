@@ -10,7 +10,7 @@ public class EnemyBehavior : MonoBehaviour
     Animator anim;
     Vector3 toRight;
     Vector3 toSpawn;
-
+    public AudioSource audio1;
     bool toggle;
     float range1,range2,around;
     Transform enemy;
@@ -125,6 +125,7 @@ public class EnemyBehavior : MonoBehaviour
             }
             if (Time.time > fireRate + lastShot)
             {
+                audio1.Play();
                 Player.hitPoint -= 1;
                 lastShot = Time.time;
                 anim.SetTrigger("nearPlayer");

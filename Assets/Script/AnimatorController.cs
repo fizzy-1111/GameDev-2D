@@ -8,6 +8,8 @@ public class AnimatorController : MonoBehaviour
     public bool isJumping = false;
     PlayerMovement t;
     playerStats e;
+    public AudioSource audio1;
+    public AudioSource audio2;
     public GameObject BulletPref;
     void Start()
     {
@@ -24,6 +26,7 @@ public class AnimatorController : MonoBehaviour
     }
     void Shoot()
     {
+        audio2.Play();
         Instantiate(BulletPref, new Vector3(transform.position.x+0.6f*switchDir(),transform.position.y,transform.position.z), Quaternion.identity);
     }
     private void FixedUpdate()
@@ -47,6 +50,7 @@ public class AnimatorController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             anim.SetTrigger("isSlashing");
+            audio1.Play();
             if (e.nearEnemy != Vector3.zero)
             {
                 Debug.Log("near");

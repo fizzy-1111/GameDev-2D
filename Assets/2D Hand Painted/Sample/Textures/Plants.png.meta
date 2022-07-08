@@ -101,6 +101,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -109,9 +111,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -132,9 +134,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -1495,6 +1500,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Corals4: 2899441650435199170
+      Flower14: 3417127870617691774
+      Seaweed9: 3365857472248335254
+      Flower5: 2250893151467517711
+      FloraRed2: 1352955200029874055
+      Plant3: 28957958560412503
+      Plant8: 2818887975088091370
+      Corals16: -3665902485383732164
+      Flower1: 8635903978712429406
+      Plant 12: -2873419383981771206
+      Corals21: -5981771769347585550
+      Cactus13: -6122111789870299419
+      Cactus9: -6275190098688083881
+      Plant5: 3442116038242085032
+      Corals2: -1268064389544249124
+      Mushrooms3: 3771794143540122796
+      Plant4: -7155205528536916930
+      Flower12: 2469693042209497120
+      Plant18: 5847049274800468493
+      Plant17: -5672623778664467425
+      Plant12: -3267802180754169167
+      FloraAzure1: -7391759607893831176
+      HangingPlant3: -5840972274582744104
+      HangingPlant2: -4881008103234269068
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

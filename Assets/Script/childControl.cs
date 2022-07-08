@@ -24,6 +24,8 @@ public class childControl : MonoBehaviour
     float range1, range2;
     public  bool isDeath = false;
     public float speed = 10;
+    public AudioSource audio1;
+    public AudioSource audio2;
     void Start()
     {
         yourturn = 1;
@@ -91,6 +93,7 @@ public class childControl : MonoBehaviour
     }
     public void OnDeath()
     {
+        GameManager.Instance.canWin = true;
         Destroy(gameObject);
     }
 }

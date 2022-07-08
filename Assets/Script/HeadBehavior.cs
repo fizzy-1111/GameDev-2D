@@ -15,7 +15,6 @@ public class HeadBehavior : MonoBehaviour
     public float speed = 0.1f;
     public float fireRate = 4f;
     private float lastShot = 0.0f;
-
     Animator anim;
     Rigidbody2D r2d;
     void Start()
@@ -52,6 +51,11 @@ public class HeadBehavior : MonoBehaviour
             {
                 transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             }
+            if (Vector3.Distance(player.transform.position, transform.position) <= 2f)
+            {
+                if (GameManager.Instance.player.attackSignal) parent.GetComponent<childControl>().hitPoint-=3;
+
+            }
 
         }
     }
@@ -62,6 +66,7 @@ public class HeadBehavior : MonoBehaviour
 
             if (Time.time > fireRate + lastShot)
             {
+                parent.GetComponent<childControl>().audio1.Play();
                 anim.SetTrigger("isDashing");
                 r2d.velocity = new Vector3(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y, 0).normalized * 70;
                 lastShot = Time.time;
@@ -92,22 +97,23 @@ public class HeadBehavior : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             if(!stickToParent)
-            GameManager.Instance.player.hitPoint -= 5;
+            GameManager.Instance.player.hitPoint -= 3;
         }
         if(collision.gameObject.tag == "bullet")
         {
-            parent.GetComponent<childControl>().hitPoint -= 10;
+            parent.GetComponent<childControl>().hitPoint -= 2;
         }
     }
     void Shoot()
     {
         if (Time.time > fireRate + lastShot)
         {
-           
+            parent.GetComponent<childControl>().audio2.Play();
             Instantiate(bulletPref, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             lastShot = Time.time;
          
         }
     }
+    
 
 }

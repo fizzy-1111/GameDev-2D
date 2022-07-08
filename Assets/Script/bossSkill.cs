@@ -26,7 +26,7 @@ public class bossSkill : MonoBehaviour
     {
         if (collision.gameObject.tag=="Boss"||collision.gameObject.tag == "bossBullet")
         {
-            Physics2D.IgnoreCollision(collision.collider, collision.otherCollider);
+            Physics2D.IgnoreCollision(collision.collider, gameObject.GetComponent<CircleCollider2D>()) ;
         }
         else if(collision.gameObject.tag == "Player")
         {

@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     public string desireScene;
     public bool toogle = false;
     AudioSource audio;
+    public AudioSource audio2;
     bool block = false;
     
     void Start()
@@ -16,7 +17,7 @@ public class MainMenu : MonoBehaviour
         //desireScene = "Scene1";
         //UnityEditor.EditorApplication.isPlaying = true;
         audio = GetComponent<AudioSource>();
-     
+        audio2.Play();
     }
 
     // Update is called once per frame

@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public GameObject canvas;
     public string sceneToload;
     public string gameMode;
-
+    public bool canWin = false;
     private void Awake()
     {
         if (Instance == null)
@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
             SceneManager.sceneLoaded += loadState;
             DontDestroyOnLoad(this);
+          
         }
         else
         {
@@ -39,7 +40,7 @@ public class GameManager : MonoBehaviour
         s += truePlayer.transform.position.x + "|";
         s += truePlayer.transform.position.y + "|";
         PlayerPrefs.SetString("SaveState" , s);
-        //Debug.Log("is Saving");
+        Debug.Log("scene.name");
     }
     public void loadState(Scene s, LoadSceneMode load)
     {

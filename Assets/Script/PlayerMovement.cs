@@ -74,6 +74,10 @@ public class PlayerMovement : MonoBehaviour
         {
             GameManager.Instance.player.OnDeath();
         }
+        if (collision.gameObject.tag == "final" && GameManager.Instance.canWin)
+        {
+            GameManager.Instance.canvas.GetComponent<WinMenu>().EndGame();
+        }
 
     }
     void Movement()
